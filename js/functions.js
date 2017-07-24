@@ -139,10 +139,10 @@ var documentSe = function(e){
 }
 
 var chatWindowClick = function(e){
-    if(e.target.className == "showPossibleQuestions"){
+    if(e.target.className == "mostrarPreguntasPosibles"){
         mostrarPreguntasPosibles(e.target);
     }else{
-        if(e.target.className == "removePossibleQuestions"){
+        if(e.target.className == "borrarPreguntasPosibles"){
             borrarPreguntasPosibles(e.target);
         }
     }
