@@ -1,5 +1,5 @@
 
-var PROXY_URL = "http://localhost:3000/";
+var PROXY_URL = "http://127.0.0.1:8080/applicationProxy/rest/ObtenerRespuesta";
 
 
 var comenzarChat = function(){
@@ -70,7 +70,9 @@ var abrirChat = function(e){
 
 var cerrarChat = function(e){
     e.preventDefault();
-    mostrarSatisfaccion();
+	Contextoanterior = {};
+	mostrarSatisfaccion();
+
 }
 
 var minimizarChat = function(event){
