@@ -560,6 +560,7 @@ var estrellaClick = function(event){
 
     _enviarSatisfaccion.className = _enviarSatisfaccion.className.replace("active", "");
     _enviarSatisfaccion.className+= " active";
+    enviarSatisfaccion(event);
 }
 
 var reiniciarEstrellas = function(){
